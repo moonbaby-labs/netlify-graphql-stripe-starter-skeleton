@@ -16,6 +16,7 @@
 1. Rename env.sample to .env
 2. Add your Stripe testing secret key to the env file.
 3. Setup your netlify project via the CLI
+4. Run `netlify dev` to run dev environment.
 
 
 ## How to use
