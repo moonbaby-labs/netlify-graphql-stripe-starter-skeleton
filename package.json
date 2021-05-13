@@ -4,7 +4,8 @@
   "description": "A serverless skeleton for netlify graphql & stripe",
   "main": "apollo-graphql.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "netlify dev"
   },
   "keywords": [
     "netlify",

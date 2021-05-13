@@ -1,9 +1,9 @@
-const onPaymentIntentReceived = require('./mutations/onPaymentIntentReceived');
-const onNewSubscriptionRequested = require('./mutations/onNewSubscriptionRequested');
+const onPaymentIntent = require('./mutations/onPaymentIntent');
+const onNewSubscription = require('./mutations/onNewSubscription');
 const onCreateCustomer = require('./mutations/onCreateCustomer');
 
 module.exports = {
-    onPaymentIntentReceived,
-    onNewSubscriptionRequested,
+    onPaymentIntent,
+    onNewSubscription,
     onCreateCustomer
 }
