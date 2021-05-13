@@ -1,0 +1,26 @@
+{
+  "name": "netlify-graphql-stripe",
+  "version": "1.0.0",
+  "description": "A serverless skeleton for netlify graphql & stripe",
+  "main": "apollo-graphql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "netlify",
+    "serverless",
+    "js",
+    "apollo",
+    "stripe",
+    "graphql"
+  ],
+  "author": "MoonBaby Labs",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-lambda": "^2.4.8",
+    "formidable-serverless": "^1.1.1",
+    "graphql": "^14.1.1",
+    "graphql-upload": "^11.0.0",
+    "stripe": "^8.97.0",
+  }
+}
