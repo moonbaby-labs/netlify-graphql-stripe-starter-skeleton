@@ -20,7 +20,6 @@
     "apollo-server-lambda": "^2.4.8",
     "formidable-serverless": "^1.1.1",
     "graphql": "^14.1.1",
-    "graphql-upload": "^11.0.0",
-    "stripe": "^8.97.0",
+    "graphql-upload": "^11.0.0"
   }
 }

@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/Cellar/node/14.7.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/miracle/dev/netlify-stripe-graphql/package.json: Unexpected token } in JSON at position 578
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "netlify-graphql-stripe",
+    "version": "1.0.0",
+    "description": "A serverless skeleton for netlify graphql & stripe",
+    "main": "apollo-graphql.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "netlify",
+      "serverless",
+      "js",
+      "apollo",
+      "stripe",
+      "graphql"
+    ],
+    "author": "MoonBaby Labs",
+    "license": "MIT",
+    "dependencies": {
+      "apollo-server-lambda": "^2.4.8",
+      "formidable-serverless": "^1.1.1",
+      "graphql": "^14.1.1",
+      "graphql-upload": "^11.0.0",
+      "stripe": "^8.97.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
