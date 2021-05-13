@@ -6,7 +6,7 @@ module.exports = gql`
   }
 
   type Mutation {
-    onPaymentIntent(metadata: String, amountInCents: Int!, receiptEmail: String): String
+    onPaymentIntent(metadata: String, amountInCents: Int!, receiptEmail: String, currency: String): String
     onCreateCustomer(email: String!): Customer
     onNewSubscription(paymentMethodId: String!, customerId: String!, priceId: String!): String
   }
